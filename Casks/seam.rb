@@ -4,21 +4,21 @@ cask "seam" do
 
   on_macos do
     on_arm do
-      sha256 "a2562013873cfd2fc9ffe20151631d2f4004dbd8e57e0f8b1738f60dc6d24e65"
+      sha256 "389c54377e4d7bc5a170d6aab66e8d1c8447e353ac02e27eb0f80364df8e0d14"
       url "https://github.com/dturcinovic/seam/releases/download/v#{version}/seam_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "19e18c9fbff8014e37d9dab6b7aae2cb9425cc44ff3e6013e69f671eeab71414"
+      sha256 "3292fa107b909382fb7be94ce71470ce96f6a31e6dc3ebcf5753da4e53dedbeb"
       url "https://github.com/dturcinovic/seam/releases/download/v#{version}/seam_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "663663e6d1e6ffe96ce9287b6f8d7be9172dc2da4b7d05bbd9b414f87c3fbf13"
+      sha256 "7c67a0cec766df76a5f943fc5d941a08c3bbb878c436b6d0908d417d22a932aa"
       url "https://github.com/dturcinovic/seam/releases/download/v#{version}/seam_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "29ba21d2829f796bf08ec1318094d6eea37323a6c05a404b2816f787c9a702d8"
+      sha256 "9aa0337a3366f89e94b5ca0caa5ee3e6f1ec970d162bc700eec1c1f4f8be5de9"
       url "https://github.com/dturcinovic/seam/releases/download/v#{version}/seam_#{version}_linux_amd64.tar.gz"
     end
   end
